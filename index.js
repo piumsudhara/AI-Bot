@@ -19,7 +19,7 @@ io.on('connection', function(socket){
   console.log('a user connected');
 });
 
-const apiai = require('17e00c4683214ad68b06b42a6fbd8e36')(APIAI_TOKEN);
+// const apiai = require('17e00c4683214ad68b06b42a6fbd8e36')(APIAI_TOKEN);
 
 app.get('/', (req, res) => {
   res.sendFile('index.html');
